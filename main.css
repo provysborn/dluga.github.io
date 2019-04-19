@@ -1,4 +1,5 @@
-.card-img-top {
-    width: 150px;
-    height: 150px;
+html { background: transparent }
+
+.card {
+    /*width: 200px;*/
 }
