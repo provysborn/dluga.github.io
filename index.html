@@ -13,37 +13,41 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#main_text" class="nav-link pr-0 text-warning">Описание бренда<i
+                                class="fas fa-angle-double-right px-2"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link pr-0 text-warning">Контакты<i
+                                class="fas fa-angle-double-right px-2"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container-fluid">
         <div class="row text-center text-light">
-            <div class="col-lg-5 col-md-4 col-sm-4 col-xs-4 px-0">
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 px-0">
                 <div class="col-md-12 h3 top_banner py-2 text-right pr-4 d-none d-sm-block">
                     PROFESSIONAL TOOLS</div>
             </div>
-            <div class="col-lg-2 col-md-4 col-sm-4 col px-0 text-center">
+            <div class="col-lg-2 col-md-2 col-sm-2 col px-0 text-center">
                 <img src="./img/Logo.png" class="img-fluid" alt="">
             </div>
-            <div class="col-lg-5 col-md-4 col-sm-4 col-xs-4 px-0">
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 px-0">
                 <div class="col-md-12 h3 top_banner pl-4 py-2 text-left d-none d-sm-block">PROFESSIONAL TOOLS</div>
-                <div class="col-md-12">
-                    <nav class="navbar navbar-expand-lg py-0">
-                        <button class="navbar-toggler text-dark" type="button" data-toggle="collapse"
-                            data-target="navbarToggler">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarToggler">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item border-right border-left">
-                                    <a href="#main_text" class="nav-link text-warning">Описание бренда<i
-                                            class="fas fa-angle-double-right"></i></a>
-                                </li>
-                                <li class="nav-item border-right border-left">
-                                    <a href="#contacts" class="nav-link text-warning">Контакты <i
-                                            class="fas fa-angle-double-right"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+                <!--<div class="col-md-12">
+                    
+                </div>-->
             </div>
         </div>
     </div>
@@ -56,13 +60,13 @@
                     <p class="card-text">
                         <div class="container">
                             <div class="row text-center">
-                                <div class="col-md-12 col-sm-12 col-xs-12 pt-5 pb-4 border_bottom_2 display-4">
+                                <div class="col-md-12 col-sm-12 col-xs-12 pt-md-5 pb-4 border_bottom_2 display-4">
                                     ИНСТРУМЕНТ ДЛЯ ПРОФЕССИОНАЛОВ
                                 </div>
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12 ml-5">
                                 <a href="pdf/test.pdf"
-                                    class="btn border_2 btn-warning ml-5 mt-5 text-light shadow rounded font-weight-bold"
+                                    class="btn border_2 btn-warning ml-md-5 mt-md-5 text-light shadow rounded font-weight-bold"
                                     target="_blank">КАТАЛОГ
                                     ИНСТРУМЕНТОВ<i class="fas fa-angle-double-right pl-2 text-light"></i></a>
                             </div>
@@ -75,7 +79,7 @@
 
     <div class="row text-center">
         <div class="col border_top_5 h5 py-4 my-auto text-light" style="background-color:black">
-            KING ROY - ИЗВЕСТНЫЙ МИРОВОЙ БРЕНД, ПРОИЗВЕДЕННЫЙ В ТАЙВАНЕ.
+            <span class="text-warning">KING ROY</span> - ИЗВЕСТНЫЙ МИРОВОЙ БРЕНД, ПРОИЗВЕДЕННЫЙ В ТАЙВАНЕ.
         </div>
     </div>
 
@@ -138,21 +142,24 @@
         <div class="container">
             <div class="row text-left pb-5">
                 <div class="col-md-12 col-sm-12 col-xs-12 pt-4" id="contacts">
-                    <p class="h3 text-light">
+                    <p class="h4 text-light">
                         По вопросам оптовых закупок:
                     </p>
-                    <ul class="h4">
+                    <ul class="h5">
                         <li>
-                            Официальный представитель в Украине - info.kingroy@gmail.com
+                            <span>Официальный представитель в Украине -</span>
+                            <span class="text-light">info.kingroy@gmail.com</span>
                         </li>
                         <li>
-                            Представительство в ОАЭ - king_w@emirates.net.ae
+                            <span>Представительство в ОАЭ -</span>
+                            <span class="text-light">king_w@emirates.net.ae</span>
                         </li>
                         <li>
-                            Представительство в Тайвань - info@kingroy.tw
+                            <span>Представительство в Тайване -</span>
+                            <span class="text-light">info@kingroy.tw</span>
                         </li>
                     </ul>
-                    <p class="h3">
+                    <p class="h4">
                         <a class="text-light" href="https://kingavto.com.ua/" target="_blank">Интернет-магазин</a>
                     </p>
                 </div>
