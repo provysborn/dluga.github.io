@@ -2,6 +2,23 @@
     background-color: darkgrey;
 }
 
+#main_text{    
+  font-size: 20.228px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: justifyLeft;
+  /*-moz-transform: matrix( 1.23623853211009,0,0,1.23589364303729,0,0);
+  -webkit-transform: matrix( 1.23623853211009,0,0,1.23589364303729,0,0);
+  -ms-transform: matrix( 1.23623853211009,0,0,1.23589364303729,0,0);
+  position: absolute;
+  left: 524.384px;
+  top: 1391.982px;
+  width: 872.233px;
+  height: 1158.875px;
+  z-index: 7;*/
+}
+
 .fa-angle-double-right{
     color: darkgray;
 }
