@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700&subset=cyrillic');
+
 .top_banner {
-    background-color: darkgrey;
+    font-family: 'Fira Mono', monospace;
 }
 
 #main_text{    
@@ -17,6 +19,10 @@
   width: 872.233px;
   height: 1158.875px;
   z-index: 7;*/
+}
+
+#main_text > p {
+    text-indent: 40px;
 }
 
 .fa-angle-double-right{
