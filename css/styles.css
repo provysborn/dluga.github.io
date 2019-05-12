@@ -85,9 +85,9 @@ html,body
         font-size: .75rem !important;
     }
 
-    /*.btn {
+    #catalog_btn {
         font-size: .75rem !important;
-    }*/
+    }
   }
 
   @media screen and (max-width: 400px) {
