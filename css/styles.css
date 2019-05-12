@@ -50,7 +50,7 @@
 }
 
   @media screen and (max-width: 990px) {
-    .h3, .h5 {
+    #header_left_text, #header_right_text, #middle_banner_text {
         font-size: 1.25rem !important;
     }
   }
@@ -66,13 +66,13 @@
   }
 
   @media screen and (max-width: 740px) {
-    .h3, .h5 {
+    #header_left_text, #header_right_text, #middle_banner_text {
         font-size: 1rem !important;
     }
   }
 
   @media screen and (max-width: 620px) {
-    .h3, .h5 {
+    #header_left_text, #header_right_text, #middle_banner_text {
         font-size: .75rem !important;
     }
 
