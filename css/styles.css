@@ -30,7 +30,7 @@ html,body
   z-index: 7;*/
 }
 
-/*.btn_top{
+/*#btn-top{
     display: none;
     position: fixed;
     bottom: 20px;
@@ -45,7 +45,7 @@ html,body
     border-radius: 10px;
 }
 
-.btn_top:hover{
+#btn-top:hover{
     background-color: orangered;
 }*/
 
