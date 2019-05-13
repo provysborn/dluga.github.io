@@ -30,6 +30,25 @@ html,body
   z-index: 7;*/
 }
 
+/*.btn_top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: darkorange;
+    color: white;
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+
+.btn_top:hover{
+    background-color: orangered;
+}*/
+
 .display-4{
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
@@ -64,13 +83,17 @@ html,body
     }
   }
 
-  @media screen and (max-width: 765px) {
+  @media screen and (max-width: 770px) {
     .contact_links {
         font-size: .75rem !important;
     }
 
     .display-4{
-        font-size: 2rem !important;
+        font-size: 2.5rem !important;
+    }
+
+    #catalog_btn {
+        font-size: .75rem !important;
     }
   }
 
@@ -85,9 +108,9 @@ html,body
         font-size: .75rem !important;
     }
 
-    #catalog_btn {
+    /*#catalog_btn {
         font-size: .75rem !important;
-    }
+    }*/
   }
 
   @media screen and (max-width: 400px) {
