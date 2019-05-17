@@ -18,17 +18,3 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
-/*var $btnTop = $(".btn-top");
-$(window).on("scroll", function () {
-  if ($(window).scrollTop() >= 20) {
-    $btnTop.fadeIn();
-  }
-  else{
-    $btnTop.fadeOut();
-  }
-});
-
-$btnTop.on("click", function () {
-  $("html,body").animate({scrollTop:0}, 900);
-});*/
