@@ -13,6 +13,14 @@ html,body
     font-family: 'Fira Mono', monospace;
 }
 
+.oranged_color{
+    color: #f07b00 !important;
+}
+
+.bg_oranged{
+    background-color: #f07b00 !important;
+}
+
 #main_text{    
   font-size: 20.228px;
   font-family: "Arial";
@@ -43,15 +51,15 @@ html,body
 }
 
 .border_top_5 {
-    border-top: 5px solid orange;
+    border-top: 5px solid #f07b00;
 }
 
 .border_bottom_5 {
-    border-bottom: 5px solid orange;
+    border-bottom: 5px solid #f07b00;
 }
 
 .border_bottom_2{
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid #f07b00;
 }
 
 .border_2 {
