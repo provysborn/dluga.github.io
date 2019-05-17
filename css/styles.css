@@ -17,8 +17,20 @@ html,body
     color: #f07b00 !important;
 }
 
+.oranged_color:active{
+    color: orange !important;
+}
+
 .bg_oranged{
     background-color: #f07b00 !important;
+}
+
+.bg_oranged:hover{
+    background-color: orange !important;
+}
+
+.bg_oranged:active{
+    background-color: darkorange !important;
 }
 
 #main_text{    
