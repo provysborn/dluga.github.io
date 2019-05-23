@@ -1,2 +1,3 @@
+Disallowe: *
 Host: kingroy.com.ua
 Sitemap: http://kingroy.com.ua/sitemap.xml.
