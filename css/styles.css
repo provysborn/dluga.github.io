@@ -79,7 +79,7 @@ html,body
 }
 
   @media screen and (max-width: 990px) {
-    #header_left_text, #header_right_text, #middle_banner_text {
+    #header_left_text, #header_right_text, #middle_banner_text > h5 {
         font-size: 1.25rem !important;
     }
   }
@@ -99,13 +99,13 @@ html,body
   }
 
   @media screen and (max-width: 740px) {
-    #header_left_text, #header_right_text, #middle_banner_text {
+    #header_left_text, #header_right_text, #middle_banner_text > h5 {
         font-size: 1rem !important;
     }
   }
 
   @media screen and (max-width: 620px) {
-    #header_left_text, #header_right_text, #middle_banner_text {
+    #header_left_text, #header_right_text, #middle_banner_text > h5 {
         font-size: .75rem !important;
     }
   }
