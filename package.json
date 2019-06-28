@@ -1,5 +1,5 @@
 {
-  "name": "price-finder-pro",
+  "name": "price-finder-pro-client",
   "version": "1.0.0",
   "description": "App for scraping prices from eComerse websites",
   "main": "index.js",
