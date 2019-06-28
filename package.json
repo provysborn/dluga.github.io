@@ -1,0 +1,26 @@
+{
+  "name": "price-finder-pro",
+  "version": "1.0.0",
+  "description": "App for scraping prices from eComerse websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dluga/dluga.github.io.git"
+  },
+  "keywords": [
+    "javascript",
+    "scrapping",
+    "prices",
+    "ecomerse",
+    "websites"
+  ],
+  "author": "Vitalii Dlugoborsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dluga/dluga.github.io/issues"
+  },
+  "homepage": "https://github.com/dluga/dluga.github.io#readme"
+}
