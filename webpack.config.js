@@ -1,7 +1,7 @@
-import path from 'path';
+const path = require('path');
 
 var config = {
-    entry: 'src/index.js',
+    entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, './dist'),
         filename: 'main.js',
@@ -11,7 +11,7 @@ var config = {
         rules: [
             {
                 test: /\.js$/,
-                exculde: /node_modules/,
+                exclude: /node_modules/,
                 loader: 'babel-loader'
             }
         ]
