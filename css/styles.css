@@ -78,6 +78,10 @@ html,body
     border: 2px solid white;
 }
 
+.dropdown-toggle::after {
+    display:none !important;
+}
+
   @media screen and (max-width: 990px) {
     #header_left_text, #header_right_text, #middle_banner_text > h5 {
         font-size: 1.25rem !important;
