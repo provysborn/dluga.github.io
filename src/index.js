@@ -1,6 +1,6 @@
-/*$('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
-});*/
+$('#main_description_nav_item, #contacts_nav_item, .dropdown-item').on('click', function(){
+  $('.navbar-collapse').collapse('hide');
+});
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
